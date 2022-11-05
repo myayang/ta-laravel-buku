@@ -88,15 +88,6 @@ Data Pengguna
                 <label class="form-check-label" for="STAFF">Staff</label>
               </div>
 
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input {{$errors->first('roles') ? "is-invalid" : "" }}"
-                  id="CUSTOMER" name="roles[]" value="CUSTOMER">
-                <label class="form-check-label" for="CUSTOMER">Customer</label>
-
-
-              </div>
-
-
               @if ($errors->first('roles'))
               <div class="form-group">
                 <div class="alert alert-danger alert-dismissible" style="margin-top:15px;">

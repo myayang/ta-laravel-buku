@@ -18,11 +18,11 @@
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
-<body class="hold-transition login-page" style="background-image: linear-gradient(to right, #bc4e9c , #f80759)" >
+<body class="hold-transition login-page" style="background-color:blue;" >
 <div class="login-box">
   <div class="login-logo">
       <img src="{{ asset('assets/dist/img/book-shop.png') }}" width="128px" height="128px" ><br>
-    <a  style="color: white;font-size:30px;"><b>Aplikasi Toko Buku Online</a>
+    <a  style="color: white;font-size:30px;"><b>Aplikasi Buku Online</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -59,8 +59,6 @@
                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
                 Remember Me
               </label>
-
-           
             </div>
           </div>
           <!-- /.col -->

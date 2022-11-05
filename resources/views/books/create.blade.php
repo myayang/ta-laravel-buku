@@ -55,13 +55,8 @@
                                 <div class="form-group">
                                         <label for="exampleInputFile">Cover Buku</label>
                                         <div class="input-group">
-                                          <div class="custom-file">
-                                            <input type="file" class="custom-file-input {{ $errors->first('cover') ? "is-invalid" : "" }}" id="cover" name="cover">
+                                            <input type="file" class="exampleInputFile {{ $errors->first('cover') ? "is-invalid" : "" }}" id="cover" name="cover">
                                             <label class="custom-file-label" for="cover">Choose file</label>
-                                          </div>
-                                          <div class="input-group-append">
-                                            <span class="input-group-text" id="">Upload</span>
-                                          </div>
                                         </div>
 
                                         @if ($errors->first('cover'))
@@ -135,8 +130,6 @@
                               <div class="form-group">
                                 <label for="categories">Kategori</label>
                                 <select name="categories[]" id="categories" class="form-control select2" multiple></select>
-
-                             
                               </div>
 
 

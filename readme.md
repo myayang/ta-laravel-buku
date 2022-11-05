@@ -39,3 +39,4 @@ Silahkan download bagi yang ingin mempelajari laravel 6 :+1:
 
 # myayangta.github.io
 "# Tugakhir" 
+"# buku.github.io" 

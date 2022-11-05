@@ -21,7 +21,7 @@ class CreateBooksTable extends Migration
             $table->string('author');
             $table->string('publisher');
             $table->string('cover');
-            $table->float('price');
+            $table->integer('price');
             $table->integer('views')->default(0)->unsigned();
             $table->integer('stock')->default(0)->unsigned();
             $table->enum('status', ['PUBLISH', 'DRAFT']);

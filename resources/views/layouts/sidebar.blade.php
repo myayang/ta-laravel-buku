@@ -4,7 +4,7 @@
         <a href="index3.html" class="brand-link">
           <img src="{{ asset('assets/dist/img/book-shop.png') }} " alt="AdminLTE Logo" class="brand-image"
                style="opacity: .8">
-          <span class="brand-text font-weight-light">Toko Buku Online</span>
+          <span class="brand-text font-weight-light">Buku Online</span>
         </a>
     
         <!-- Sidebar -->
@@ -60,16 +60,6 @@
                         </p>
                     </a>
                     </li>
-
-                    <li class="nav-item">
-                        <a href="{{ route('orders.index') }}" class="nav-link {{ (request()->is('orders')) ? 'active' : '' }}">
-                              <i class="nav-icon fa fa-shopping-basket"></i>
-                              <p>
-                              Data Order
-                              </p>
-                          </a>
-                          </li>
-
               <li class="nav-item">
 
     
